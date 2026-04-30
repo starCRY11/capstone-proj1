@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+#bgVideo{
+    position: fixed;
+    z-index: -1;
+    object-fit: cover;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.185);
+    
+  
+}
+.container-main p{
+    font-size: 1.4rem;
+    margin: 0;
+}
+.container-main h1{
+    font-size: 6rem;
+    margin: 0;
+}
+.input-button{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    align-items: center;
+    
+}
+.input-button input{
+    background: rgba(255, 255, 255, 0.534);
+    border: none;
+    width: 300px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    font-size: 1rem;
+    position:relative;
+}
+
+.input-button input::placeholder{
+    color: rgba(0, 0, 0, 0.623);
+}
+
+input.error {
+    border: 1px solid red;
+    outline: none;
+}
+
+.okBtn{
+    border: none;
+    height: 40px;
+    width: 100px;
+    background-color: #29385F;
+    color: white;
+    text-align: center;
+    
+}
+.input-button button:hover{
+    background-color:  #7087be;
+    transition-duration: 0.4s
+}
+
+.pressed:hover{
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    color: black;
+}
+.navigation{
+    
+    background-color: rgba(0, 0, 0, 0.185);
+    
+}
+
+ul{
+    margin: 0;
+    color: #000000;
+    list-style-type: none ;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+ul li {
+    font-size: 1.3rem;
+    padding-left: 40px;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.footer-text p{
+    margin: 0;
+}
+
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+

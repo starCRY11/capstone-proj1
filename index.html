@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cap-proj-1</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Michroma&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+    <video autoplay muted loop id="bgVideo">
+  <source src="./img/clouds.mp4" type="video/mp4">
+    </video>
+
+    <header class="navigation inter-font" >
+        <nav>
+            <ul>
+                <li>Main</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-main">
+        <div class="text-container michroma-regular" >
+            <p>MINUTE BY MINUTE</p>
+            <h1>YOUR COMPANY</h1>
+            <div class="input-button">
+                <div id="error" name ="error" type ="text"></div>
+                <form action="" id ="form" method="get">
+                <input  id = "gmail" name="gmail" type="text" required placeholder="Enter your email here">           
+                <button  class = "okBtn" type="submit" >OK </button>
+                </form>
+            </div> 
+            
+        </div>
+    </div>
+
+    <footer class="footer-text inter-font">
+        <p>© 2026 Andriiuk Ivan. All rules are resurved</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
